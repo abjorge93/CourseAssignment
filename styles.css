@@ -6,3 +6,23 @@ header {
     background-color: #23272F;
     padding: 15px;
 }
+
+.Home {
+    
+    position: absolute;
+    top: 44px;
+    left: 2370px;
+    
+}
+
+.Basket {
+    position: absolute;   
+    top: 45px;
+    left: 2430px;
+}
+
+.Profile {
+    position: absolute;   
+    top: 45px;
+    left: 2490px;
+ }
