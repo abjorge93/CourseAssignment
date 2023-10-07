@@ -1,28 +1,39 @@
 body {
-    background-color: #D8B9FF
+    background-color: #D8B9FF;
+    font-family: 'Open Sans', Verdana, sans-serif;
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 50px;
     background-color: #23272F;
-    padding: 15px;
+}
+
+.Logo {
+    top: 10px;
+    left: 30px;
+    position: fixed;
 }
 
 .Home {
-    
-    position: absolute;
-    top: 44px;
-    left: 2370px;
+    position: fixed;
+    top: 35px;
+    right: 130px;
     
 }
 
 .Basket {
-    position: absolute;   
-    top: 45px;
-    left: 2430px;
+    position: fixed; 
+    top: 35px;
+    right: 80px;
 }
 
 .Profile {
-    position: absolute;   
-    top: 45px;
-    left: 2490px;
+    position: fixed; 
+    top: 35px;
+    right: 30px;
  }
+
