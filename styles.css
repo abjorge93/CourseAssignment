@@ -3,9 +3,6 @@ body {
     font-family: 'Open Sans', Verdana, sans-serif;
 }
 
-image {
-    max-width: 100%;
-}
 
 header {
     position: fixed;
@@ -18,15 +15,17 @@ header {
     
 
 .Logo {
-    
-    max-width: 200px;
+    max-width: 100%;
+    height: auto;
     top: 10px;
     left: 30px;
     position: fixed;
+    
 }
 
 .Home {
-    
+    max-width: 100%;
+    height: auto;
     position: fixed;
     top: 31px;
     right: 130px;
@@ -34,20 +33,24 @@ header {
 }
 
 .Basket {
-   
+    max-width: 100%;
+    height: auto;
     position: fixed; 
     top: 32px;
     right: 80px;
 }
 
 .Profile {
-   
+
+    max-width: 100%;
+    height: auto;
     position: fixed; 
     top: 32px;
     right: 30px;
  }
 
  main {
+    
     margin-top: 110px;
     margin-bottom: 170px;
 }
@@ -84,22 +87,24 @@ header {
 
 .Register {
     
-   
+    max-width: 100%;
+    height: auto;
    
 }
 
 .Contact {
-    
-    
+
+    max-width: 100%;
+    height: auto;
     
 }
 
 .About {
-    
+
+    max-width: 100%;
+    height: auto;
    
-    
 }
 
-image {
-    
-}
+
+   
