@@ -1,9 +1,11 @@
 body {
     background-color: #B7C0EE;
     font-family: 'Open Sans', Verdana, sans-serif;
-
 }
 
+image {
+    object-fit: cover;
+}
 
 header {
     position: fixed;
@@ -12,7 +14,8 @@ header {
     width: 100%;
     padding: 50px;
     background-color: #F28500;
-}
+      }
+    
 
 .Logo {
     object-fit: cover;
@@ -82,17 +85,17 @@ header {
 .Register {
     max-width: 100%;
     object-fit: cover;
-    object-position: bottom;
+   
 }
 
 .Contact {
     max-width: 100%;
     object-fit: cover;
-    object-position: bottom;
+    
 }
 
 .About {
     max-width: 100%;
     object-fit: cover;
-    object-position: bottom;
+    
 }
