@@ -15,12 +15,15 @@ header {
 }
 
 .Logo {
+    object-fit: cover;
+    max-width: 200px;
     top: 10px;
     left: 30px;
     position: fixed;
 }
 
 .Home {
+    object-fit: cover;
     position: fixed;
     top: 31px;
     right: 130px;
@@ -28,12 +31,14 @@ header {
 }
 
 .Basket {
+    object-fit: cover;
     position: fixed; 
     top: 32px;
     right: 80px;
 }
 
 .Profile {
+    object-fit: cover;
     position: fixed; 
     top: 32px;
     right: 30px;
@@ -74,4 +79,20 @@ header {
     text-align: center;
   }
 
+.Register {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
 
+.Contact {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+.About {
+    max-width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+}
