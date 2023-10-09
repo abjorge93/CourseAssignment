@@ -1,7 +1,9 @@
 body {
     background-color: #B7C0EE;
     font-family: 'Open Sans', Verdana, sans-serif;
+
 }
+
 
 header {
     position: fixed;
@@ -39,7 +41,7 @@ header {
 
  main {
     margin-top: 110px;
-    margin-bottom: 110px;
+    margin-bottom: 170px;
 }
 
 .topnav {
@@ -72,4 +74,4 @@ header {
     text-align: center;
   }
 
-  
+
