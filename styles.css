@@ -23,6 +23,7 @@ header {
     
 }
 
+
 .Home {
     max-width: 100%;
     height: auto;
@@ -86,14 +87,16 @@ header {
   }
 
 .Register {
-    
+
+    position: relative; 
     max-width: 100%;
     height: auto;
    
 }
 
 .Contact {
-
+    
+    position: fixed; 
     max-width: 100%;
     height: auto;
     
@@ -101,10 +104,8 @@ header {
 
 .About {
 
+    position: fixed; 
     max-width: 100%;
     height: auto;
    
 }
-
-
-   
