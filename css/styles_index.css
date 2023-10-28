@@ -1,0 +1,80 @@
+body {
+    background-color: #D8B9FF;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #EA9032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 25px 20px;
+}
+
+
+.tiltedsuperduper {
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 80px;
+    padding: 0px;
+}
+
+.PriceTagSuperduper {
+
+    margin-left: -475px;
+    margin-bottom: 120px;
+    display: inline-block;   
+    padding: 0px;
+}
+
+.TextBestDiscount {
+
+    margin-left: 80px;
+    margin-top: -250px;
+
+}
+
+.TextSuperDuper {
+
+    margin-left: 160px;
+    margin-top: 33px;
+
+}
+
+
+
+.topnav {
+    list-style-type: none;
+    display: flex;
+}
+
+.topnav a {
+    margin-right: 10px; 
+}
+
+.topnav a:last-child {
+    margin-right: 45px; 
+}
+
+.footer {
+    background-color: #EA9032;
+    padding: 10px 20px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer img {
+    width:180px;
+    margin-top: 15px;
+    padding: 5px;
+}
+
