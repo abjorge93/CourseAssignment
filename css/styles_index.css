@@ -1,61 +1,110 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+
+}
+
+header {
+    background: #EA9032;
+    color: white;
+    padding: 30px;
     display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    display: grid;
-    grid-gap: 1em;
+    font-size: 25px;
+    
+}
+
+.Logo-gh {
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+.middle-menu-header {
+    position: absolute;
+    background: #EA9032;
+    padding: 5px;
     
 }
 
 
-.header-container {
-    background-color: #EA9032;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding: 25px 20px;
+.middle-menu-header,
+ #menu-checkbox {
+    display: none;
+    top: 149px;
 }
 
-
-.middle-menu-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.right-menu-header {
+    display: flex; 
+    margin-top: 20px;
+    margin-left: auto; 
 }
 
-.Logo-gh {
-    margin-left: 20px;
-    width: 110px;
+.Basket,
+.Profile {
+ 
+    width: 30px;
+    margin-right: 18px;
+
 }
 
-
-.right-menu-header a:not(:last-child) {
-    margin-right: 20px;
+#menu-checkbox:checked ~ .middle-menu-header {
+    display: block;
 }
 
-.right-menu-header a:not(first-child) {
-    margin-right: 50px;
+.hamburger-icon {
+    margin-left: 10px;
 }
 
-.links {
-    margin-right: 20px; 
+.middle-menu-header a {
+    display: block;
     color: white;
     text-decoration: none;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
 }
 
-.links:hover {
-    color: black; 
+@media(min-width: 750px){
+    .middle-menu-header {
+        display: flex;
+        position: static;
+        background: #EA9032;
+        padding: 5px;
+        flex: auto;
+        justify-content: center; 
+
+    }
+
+    .hamburger-icon {
+        display: none;
+    }
+
+
+    .Basket,
+    .Profile {
+ 
+        width: 30px;
+        margin-right: 18px;
+        padding: 0px;
+
+    }
+
+    .right-menu-header {
+        display: flex; 
+        margin-top: 20px;
+        margin-left: auto; 
+    }
+    
+    .middle-menu-header a{
+        padding: 0px;
+        margin-right: 35px;
+    }
+   
 }
 
 
-main {
-    padding: 20px;
-}
 
 .footer {
     background-color: #EA9032;
