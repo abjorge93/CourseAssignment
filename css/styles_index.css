@@ -1,7 +1,9 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -73,15 +75,29 @@ header {
     display: none;
 }
 
+.footer {
+    background-color: #EA9032;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
 
 
-@media (min-width: 800px) {
+@media (min-width: 845px) {
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
 
     .middle-menu-header-desktop {
         display: inline-block;
         margin-left: auto;
     }
 
+        
     .middle-menu-header-desktop a {
         display: inline-block;
         color: white;
@@ -90,9 +106,8 @@ header {
         margin-top: 20px;
         margin-bottom: 20px;
         font-size: 18px;
-        
-    
     }
+
 
     .hamburger-icon {
         display: none;
@@ -102,4 +117,12 @@ header {
         visibility: collapse;
     }
 
+    .footer {
+        background-color: #EA9032;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto;
+    }
+   
 }
