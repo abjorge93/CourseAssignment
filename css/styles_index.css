@@ -37,6 +37,7 @@ header {
     display: none;
     top: 137px;
     margin-left: 58.8%;
+    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
 }
 
 .right-menu-header {
@@ -68,6 +69,7 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
+    
 
 }
 
@@ -78,19 +80,38 @@ header {
 .footer {
     background-color: #EA9032;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 20px;
     margin-top: auto;
 }
 
+.boxer-weekly-offer-desktop {
+    display: none; 
+}
 
-@media (min-width: 845px) {
+.boxer-weekly-offer-mobile {
+    position: relative; 
+    left: 50%;
+    top: 240px;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (min-width: 860px) {
 
     body {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
     }
+
+    .main-content {
+    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
+    overflow: auto; /* Enable scrolling within the main content area if necessary */
+}
 
     .middle-menu-header-desktop {
         display: inline-block;
@@ -117,9 +138,26 @@ header {
         visibility: collapse;
     }
 
+    .boxer-weekly-offer-desktop {
+        display: block;
+    }
+
+    .boxer-weekly-offer-desktop {
+        width: 180px;
+        position: relative;
+        left: 200px;
+        top: 80px;
+    }
+    .boxer-weekly-offer-mobile {
+        display: none;
+    }
+
     .footer {
         background-color: #EA9032;
         color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
         text-align: center;
         padding: 20px;
         margin-top: auto;
