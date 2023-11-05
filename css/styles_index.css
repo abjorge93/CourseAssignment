@@ -1,11 +1,12 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
+
 
 header {
     background: #EA9032;
@@ -14,6 +15,12 @@ header {
     display: flex;
     font-size: 25px;
     
+}
+
+.main-content {
+    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
+    overflow: auto; /* Enable scrolling within the main content area if necessary */
+
 }
 
 .Logo-gh {
