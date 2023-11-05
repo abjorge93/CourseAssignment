@@ -28,7 +28,7 @@ header {
     background: #EA9032;
     padding: 5px;
     right: 0px;
-    margin-right: 8px;
+    margin-right: 0;
     
 }
 
@@ -36,7 +36,7 @@ header {
 .middle-menu-header,
  #menu-checkbox {
     display: none;
-    top: 137px;
+    top: 128.5px;
     margin-left: 58.8%;
     z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
 }
@@ -97,6 +97,13 @@ header {
     position: relative; 
     left: 50%;
     top: 240px;
+    transform: translate(-50%, -50%);
+}
+
+.superduper-frontpage-mobile {
+    position: relative; 
+    left: 50%;
+    top: 300px;
     transform: translate(-50%, -50%);
 }
 
