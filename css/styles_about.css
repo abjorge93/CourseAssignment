@@ -218,14 +218,12 @@ header {
 }
 
 
-
-
 .main-content {
     display: flex;
     flex-direction: column;
     justify-content: center; /* Aligns items along the vertical center */
     align-items: center; /* Aligns items along the horizontal center */
-    min-height: 80vh; /* Ensures the container takes up the entire viewport height */
+    min-height: 65vh; /* Ensures the container takes up the entire viewport height */
 }
 
 
