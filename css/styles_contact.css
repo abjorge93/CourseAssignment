@@ -1,10 +1,12 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 100vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
+
 
 header {
     background: #EA9032;
@@ -12,8 +14,11 @@ header {
     padding: 30px;
     display: flex;
     font-size: 25px;
+    text-align: center;
     
 }
+
+
 
 .Logo-gh {
     width: 100px;
@@ -27,7 +32,7 @@ header {
     background: #EA9032;
     padding: 5px;
     right: 0px;
-    margin-right: 8px;
+    margin-right: 0;
     
 }
 
@@ -35,8 +40,9 @@ header {
 .middle-menu-header,
  #menu-checkbox {
     display: none;
-    top: 137px;
+    top: 128.5px;
     margin-left: 58.8%;
+    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
 }
 
 .right-menu-header {
@@ -68,6 +74,7 @@ header {
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 18px;
+    
 
 }
 
@@ -78,13 +85,38 @@ header {
 .footer {
     background-color: #EA9032;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 20px;
     margin-top: auto;
 }
 
+.footertext1 {
+    margin-right: 20px;
+}
 
-@media (min-width: 845px) {
+.boxer-weekly-offer-desktop {
+    display: none; 
+}
+
+.boxer-weekly-offer-mobile {
+    position: relative; 
+    left: 50%;
+    top: 230px;
+    transform: translate(-50%, -50%);
+}
+
+.superduper-frontpage-mobile {
+    position: relative; 
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (min-width: 860px) {
 
     body {
         min-height: 100vh;
@@ -92,9 +124,15 @@ header {
         flex-direction: column;
     }
 
+    .main-content {
+    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
+    overflow: auto; /* Enable scrolling within the main content area if necessary */
+}
+
     .middle-menu-header-desktop {
         display: inline-block;
         margin-left: auto;
+        margin-top: 10px;
     }
 
         
@@ -117,9 +155,27 @@ header {
         visibility: collapse;
     }
 
+
+    .boxer-weekly-offer-desktop {
+        width: 180px;
+        position: relative;
+        left: 200px;
+        top: 80px;
+    }
+    .boxer-weekly-offer-mobile {
+        display: none;
+    }
+
+    .superduper-frontpage-mobile {
+        display: none;
+    }
+
     .footer {
         background-color: #EA9032;
         color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
         text-align: center;
         padding: 20px;
         margin-top: auto;
