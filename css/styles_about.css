@@ -1,3 +1,5 @@
+
+/* MOBILE */
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
@@ -9,8 +11,6 @@ body {
 }
 
 
-
-
 header {
     background: #EA9032;
     color: white;
@@ -20,6 +20,7 @@ header {
     display: flex;
     font-size: 25px;
     text-align: center;
+    z-index: 1;
     
 }
 
@@ -28,12 +29,25 @@ header {
    
 }
 
+.find-your-game-button {
+    display: none;
+}
+
+.find-your-game-button2 {
+
+    display: flex;
+    width: 180px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 8vh;
+    
+}
+
 .left-background {
     background-image: url('../images/about/pexels-photo-3800795\ 1.png');
     background-size: cover;
     background-position: left;
     width: 50%;
-    height: 83vh;
+    height: 100vh;
 }
 
 .right-content {
@@ -45,7 +59,7 @@ header {
 
 .text-container {
     width: 80%; /* You can adjust this width to your preference */
-    margin-top: 25vh;
+    margin-top: 12vh;
     text-align: center;
 }
 
@@ -147,7 +161,7 @@ header {
     transform: translate(-50%, -50%);
 }
 
-
+/* DESKTOP */
 @media (min-width: 860px) {
 
     body {
@@ -159,8 +173,21 @@ header {
 
     .main-content {
     flex-grow: 1; /* This allows the main content area to grow and push the footer down */
-    overflow: auto; /* Enable scrolling within the main content area if necessary */
-}
+    overflow: hidden; /* Enable scrolling within the main content area if necessary */
+    }
+
+    .find-your-game-button {
+        display: none;
+    }
+
+    .find-your-game-button2 {
+
+        display: flex;
+        width: 180px;
+        margin: 0 auto; /* Center aligns the button */
+        margin-top: 8vh;
+        
+    }
 
     .middle-menu-header-desktop {
         display: inline-block;
@@ -224,6 +251,7 @@ header {
    
 }
 
+/* MOBILE-MINI */
 @media (max-width: 450px) {
 
     .left-background {
@@ -238,6 +266,18 @@ header {
     justify-content: center; /* Aligns items along the vertical center */
     align-items: center; /* Aligns items along the horizontal center */
     min-height: 50vh; /* Ensures the container takes up the entire viewport height */
+}
+
+
+.find-your-game-button {
+    display: flex;
+    width: 180px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 8vh;
+}
+
+.find-your-game-button2 {
+    display: none;
 }
 
 .middle-menu-header,
@@ -269,9 +309,22 @@ header {
 
 @media (max-width: 300px) {
 
+
     .left-background {
         display: none;
 
+}
+
+header {
+    background: #EA9032;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    
 }
 
 
@@ -281,6 +334,17 @@ header {
     justify-content: center; /* Aligns items along the vertical center */
     align-items: center; /* Aligns items along the horizontal center */
     min-height: 50vh; /* Ensures the container takes up the entire viewport height */
+}
+
+.find-your-game-button {
+    display: flex;
+    width: 180px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 8vh;
+}
+
+.find-your-game-button2 {
+    display: none;
 }
 
 .middle-menu-header,
@@ -324,17 +388,6 @@ header {
 
 }
 
-header {
-    background: #EA9032;
-    color: white;
-    position: fixed;
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    font-size: 20px;
-    text-align: center;
-    
-}
 
 .hamburger-icon {
     margin-top: -0.5px;
