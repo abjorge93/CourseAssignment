@@ -1,7 +1,7 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 200vh;
+    min-height: 300vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -137,10 +137,11 @@ header {
 }
 
 .viewmore-button-frontpage {
+
     position: relative;
     left: 50%;
-    transform: translate(-50%, -50%);
-    top: 550px;
+    transform: translateX(-50%);
+    top: 550px; /* Adjust this value as needed to position the button properly */
     width: 220px;
 
 }
@@ -356,8 +357,13 @@ header {
     }
 
     .viewmore-button-frontpage {
-    
-        width: 180px;
+
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 550px; /* Adjust this value as needed to position the button properly */
+        width: 220px;
+        
     
     }
 
