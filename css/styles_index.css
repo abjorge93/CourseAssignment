@@ -128,10 +128,12 @@ header {
 }
 
 .viewmore-button-frontpage {
-    display: flex;
-    width: 180px;
-    margin: 0 auto; /* Center aligns the button */
-    margin-top: 65vh;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 550px;
+    width: 220px;
+
 }
 
 
@@ -221,9 +223,8 @@ header {
         width: 100%;
         padding: 30px;
         display: flex;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
-        z-index: 1;
         
     }
     
@@ -289,6 +290,7 @@ header {
     
     }
     
+    
     .middle-menu-header-desktop {
         display: none;
     }
@@ -321,70 +323,17 @@ header {
     }
     
     .superduper-frontpage-mobile {
-        position: relative; 
-        left: 50%;
-        top: 450px;
-        transform: translate(-50%, -50%);
+        width: 200px;
+    }
+    
+    .furious-frontpage-mobile {
         width: 200px;
     }
 
-}
+    .hamburger-icon {
+        margin-top: -0.5px;
+    }
 
-@media (max-width: 374px) {
-
-    header {
-        background: #EA9032;
-        color: white;
-        position: fixed;
-        width: 100%;
-        padding: 30px;
-        display: flex;
-        font-size: 20px;
-        text-align: center;
-        
-    }
-    
-    
-    .main-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: center; /* Aligns items along the vertical center */
-        align-items: center; /* Aligns items along the horizontal center */
-        min-height: 50vh; /* Ensures the container takes up the entire viewport height */
-    }
-    
-    .middle-menu-header,
-     #menu-checkbox {
-        display: none;
-        top: 114.5px;
-        margin-left: 58.8%;
-        margin-right: 60px;
-        z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
-    }
-    
-    
-    .right-content {
-        width: 50%;
-        margin: 0 auto; /* Add this line to center the container */
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .text-container {
-        width: 120%; /* You can adjust this width to your preference */
-        margin-top: 28vh;
-        text-align: center;
-        font-size: small;
-    }
-    
-    .Logo-gh {
-    
-        width: 70px;
-        margin-left: -5px;
-        margin-top: 10px;
-    }
-    
     .Basket,
     .Profile,
     .hamburger-icon {
@@ -393,10 +342,24 @@ header {
         margin-right: 10px;
     
     }
+
+    .Logo-gh {
     
-    
-    .hamburger-icon {
-        margin-top: -0.5px;
+        width: 70px;
+        margin-left: -5px;
+        margin-top: 10px;
     }
 
+    .viewmore-button-frontpage {
+    
+        width: 180px;
+    
+    }
+
+    .footer {
+        font-size: smaller;
+    }
+    
+
 }
+
