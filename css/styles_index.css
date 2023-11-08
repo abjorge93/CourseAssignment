@@ -1,7 +1,7 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 200vh;
+    min-height: 220vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -118,6 +118,20 @@ header {
     left: 50%;
     top: 450px;
     transform: translate(-50%, -50%);
+}
+
+.furious-frontpage-mobile {
+    position: relative; 
+    left: 50%;
+    top: 550px;
+    transform: translate(-50%, -50%);
+}
+
+.viewmore-button-frontpage {
+    display: flex;
+    width: 180px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 65vh;
 }
 
 
