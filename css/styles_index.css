@@ -219,6 +219,19 @@ header {
 
 @media (max-width: 376px) {
 
+    body {
+        background-color: #EEF4ED;
+        font-family: Arial, sans-serif;
+        min-height: 170vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        background-image: url('../images/Frontpage/background-image-frontpage.jpg');
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+    }
+    
 
     
     header {
