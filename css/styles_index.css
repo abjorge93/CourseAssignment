@@ -1,10 +1,14 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 220vh;
+    min-height: 185vh;
     display: flex;
     flex-direction: column;
     margin: 0;
+    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
 }
 
 
@@ -20,6 +24,8 @@ header {
     z-index: 1;
     
 }
+
+
 
 
 
@@ -110,6 +116,7 @@ header {
     position: relative; 
     left: 50%;
     top: 350px;
+    width: 350px;
     transform: translate(-50%, -50%);
 }
 
@@ -117,6 +124,7 @@ header {
     position: relative; 
     left: 50%;
     top: 450px;
+    width: 220px;
     transform: translate(-50%, -50%);
 }
 
@@ -124,6 +132,7 @@ header {
     position: relative; 
     left: 50%;
     top: 550px;
+    width: 220px;
     transform: translate(-50%, -50%);
 }
 
@@ -143,6 +152,10 @@ header {
         min-height: 100vh;
         display: flex;
         flex-direction: column;
+    }
+
+    .furious-frontpage-mobile {
+        display: none;
     }
 
     .main-content {
@@ -209,7 +222,7 @@ header {
     body {
         background-color: #EEF4ED;
         font-family: Arial, sans-serif;
-        min-height: 200vh;
+        min-height: 150vh;
         display: flex;
         flex-direction: column;
         margin: 0;
@@ -323,11 +336,11 @@ header {
     }
     
     .superduper-frontpage-mobile {
-        width: 200px;
+        width: 150px;
     }
     
     .furious-frontpage-mobile {
-        width: 200px;
+        width: 150px;
     }
 
     .hamburger-icon {
