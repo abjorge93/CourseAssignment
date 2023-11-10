@@ -8,6 +8,42 @@ body {
 }
 
 
+.search-form {
+    margin-top: 250px;
+    text-align: center;
+}
+
+.search-form input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+}
+
+.search-form button {
+    padding: 8px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0px 20px 20px 0px;
+    cursor: pointer;
+}
+
+.console-form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.console-form label {
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.console-form input {
+    margin-right: 5px;
+}
+
+
+
 header {
     background: #EA9032;
     color: white;
@@ -19,6 +55,44 @@ header {
     text-align: center;
     z-index: 1;
     
+}
+
+#section2 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.superduper {
+    width: 200px;
+}
+
+.furious {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.force {
+    margin-left: 20px;
+    width: 200px;
+}
+
+#section3 {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.boxer {
+    width: 200px;
+}
+
+.black {
+    margin-left: 20px;
+    width: 200px;
+}
+
+.pingpong {
+    margin-left: 20px;
+    width: 200px;
 }
 
 
@@ -107,7 +181,7 @@ header {
 @media (min-width: 860px) {
 
     body {
-        min-height: 100vh;
+        min-height: 200vh;
         display: flex;
         flex-direction: column;
     }
@@ -155,6 +229,49 @@ header {
    
 }
 
+
+@media (max-width: 658px) {
+
+
+.superduper {
+
+    
+
+}
+
+.furious {
+   
+}
+
+.force {
+    position: relative;
+    top: 50px;
+    right: 122px;
+    
+
+}
+
+.boxer {
+    position: relative;
+  
+}
+
+.black {
+    position: relative;
+   
+
+}
+
+.pingpong {
+    position: relative;
+    bottom: 571px;
+    left: 103px;
+    
+}
+
+
+}
+
 /* MOBILE-MINI */
 @media (max-width: 450px) {
 
@@ -167,7 +284,6 @@ header {
     margin-right: 60px;
     z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
 }
-
 
 
 .text-container {

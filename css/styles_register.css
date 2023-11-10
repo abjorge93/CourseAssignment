@@ -7,6 +7,25 @@ body {
     margin: 0;
 }
 
+button {
+    display: block;
+    margin: auto;
+    color: white; /* Set text color to white */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.button1 {
+    margin-top: 100px;
+}
 
 header {
     background: #EA9032;
@@ -106,6 +125,8 @@ header {
 /* DESKTOP */
 @media (min-width: 860px) {
 
+
+    
     body {
         min-height: 100vh;
         display: flex;
