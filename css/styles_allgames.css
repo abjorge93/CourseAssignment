@@ -259,16 +259,23 @@ header {
     text-align: center;
 }
 
+
+
 }
 
-@media (max-width: 300px) {
+@media (max-width: 316px) {
 
     .left-background {
         display: none;
 
 }
 
-
+.game-section a {
+    width: 100%; /* Set the width to less than 50% to account for spacing */
+    margin-bottom: 50px; /* Adjust as needed for spacing between rows */
+    box-sizing: border-box;
+   
+}
 
 .middle-menu-header,
  #menu-checkbox {
