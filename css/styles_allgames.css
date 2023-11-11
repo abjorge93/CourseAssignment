@@ -186,7 +186,7 @@ header {
 @media (min-width: 860px) {
 
     body {
-        min-height: 200vh;
+        min-height: 150vh;
         display: flex;
         flex-direction: column;
     }
@@ -282,7 +282,7 @@ header {
     body {
         background-color: #ccd3cb;
         font-family: Arial, sans-serif;
-        min-height: 200vh;
+        min-height: 190vh;
         display: flex;
         flex-direction: column;
         margin: 0;
