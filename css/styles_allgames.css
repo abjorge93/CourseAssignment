@@ -279,6 +279,15 @@ header {
 /* MOBILE-MINI */
 @media (max-width: 640px) {
 
+    body {
+        background-color: #ccd3cb;
+        font-family: Arial, sans-serif;
+        min-height: 200vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
     .trending {
 
         margin-top: 0;
@@ -320,6 +329,15 @@ header {
 }
 
 @media (max-width: 316px) {
+
+    body {
+        background-color: #ccd3cb;
+        font-family: Arial, sans-serif;
+        min-height: 300vh;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
 
     .left-background {
         display: none;
