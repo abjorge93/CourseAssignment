@@ -1,7 +1,7 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 300vh;
+    min-height: 200vh;
     display: flex;
     flex-direction: column;
     margin: 0;
