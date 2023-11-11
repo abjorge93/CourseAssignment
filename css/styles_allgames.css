@@ -11,6 +11,7 @@ body {
 .search-form {
     margin-top: 250px;
     text-align: center;
+    
 }
 
 .search-form input {
@@ -40,6 +41,7 @@ body {
 
 .console-form input {
     margin-right: 5px;
+    margin-bottom: 55px;
 }
 
 
@@ -55,6 +57,22 @@ header {
     text-align: center;
     z-index: 1;
     
+}
+
+.game-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px; /* Adjust the margin as needed */
+
+}
+
+.game-section a {
+    text-decoration: none;
+    color: black; /* Adjust the color as needed */
+}
+
+.game-section img {
+   width: 150px;
 }
 
 
@@ -147,6 +165,22 @@ header {
         flex-direction: column;
     }
 
+    .game-section {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px; /* Adjust the margin as needed */
+
+    }
+    
+    .game-section a {
+        text-decoration: none;
+        color: black; /* Adjust the color as needed */
+    }
+    
+    .game-section img {
+       width: 200px;
+    }
+
 
     .middle-menu-header-desktop {
         display: inline-block;
@@ -192,7 +226,21 @@ header {
 
 
 /* MOBILE-MINI */
-@media (max-width: 450px) {
+@media (max-width: 475px) {
+
+    .game-section {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+
+    .game-section a {
+        width: 48%; /* Set the width to less than 50% to account for spacing */
+        margin-bottom: 50px; /* Adjust as needed for spacing between rows */
+        box-sizing: border-box;
+       
+    }
 
 
 .middle-menu-header,
