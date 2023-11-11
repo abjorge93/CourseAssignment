@@ -7,10 +7,36 @@ body {
     margin: 0;
 }
 
+.first-section {
+    background-color: #303030; /* Blue color */
+    flex: 1; /* Take 100% height of the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+.trending {
+    background-color: #303030; /* Blue color */
+    flex: 1; /* Take 100% height of the remaining space */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 15px;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+
 
 .search-form {
-    margin-top: 250px;
-    text-align: center;
+    margin-top: 195px;
+    
     
 }
 
@@ -32,6 +58,7 @@ body {
 .console-form {
     margin-top: 20px;
     text-align: center;
+    color: white;
 }
 
 .console-form label {
