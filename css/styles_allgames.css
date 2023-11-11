@@ -1,5 +1,5 @@
 body {
-    background-color: #EEF4ED;
+    background-color: #ccd3cb;
     font-family: Arial, sans-serif;
     min-height: 200vh;
     display: flex;
@@ -8,30 +8,29 @@ body {
 }
 
 .first-section {
-    background-color: #303030; /* Blue color */
+    background-color: #272727; /* Blue color */
     flex: 1; /* Take 100% height of the remaining space */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 30vh;
 }
 
 .trending {
-    background-color: #303030; /* Blue color */
-    flex: 1; /* Take 100% height of the remaining space */
+    background-color: #272727; /* Blue color */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 10vh;
     color: white;
-    font-size: 30px;
-    letter-spacing: 15px;
-    font-style: oblique;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-style: initial; 
     font-weight: bold;
+    margin-top: 50px;
 }
-
 
 
 .search-form {
@@ -192,6 +191,31 @@ header {
         flex-direction: column;
     }
 
+    .first-section {
+        
+        flex: 1; /* Take 100% height of the remaining space */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 30vh;
+    }
+    
+    .trending {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        color: white;
+        font-size: 20px;
+        letter-spacing: 5px;
+        font-style: initial; 
+        font-weight: bold;
+        margin-top: 50px;
+    }
+
     .game-section {
         display: flex;
         justify-content: space-evenly;
@@ -253,7 +277,12 @@ header {
 
 
 /* MOBILE-MINI */
-@media (max-width: 475px) {
+@media (max-width: 640px) {
+
+    .trending {
+
+        margin-top: 0;
+    }
 
     .game-section {
         display: flex;
@@ -295,6 +324,11 @@ header {
     .left-background {
         display: none;
 
+}
+
+.trending {
+
+    margin-top: 0;
 }
 
 .game-section a {
