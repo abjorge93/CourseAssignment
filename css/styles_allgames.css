@@ -7,6 +7,11 @@ body {
     min-height: 250vh;
 }
 
+.left-background {
+
+    display: none;
+}
+
 .first-section {
     background-color: #272727; /* Blue color */
     flex: 1; /* Take 100% height of the remaining space */
@@ -14,7 +19,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 30vh;
+    height: 20vh;
 }
 
 .trending {
@@ -181,56 +186,6 @@ header {
     margin-right: 20px;
 }
 
-@media (max-width: 863px) {
-
-    body {
-        min-height: 250vh;
-    }
-
-    .trending {
-
-        margin-top: 0;
-    }
-
-    .game-section {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        text-align: center;
-    }
-
-    .game-section a {
-        width: 48%; /* Set the width to less than 50% to account for spacing */
-        margin-bottom: 50px; /* Adjust as needed for spacing between rows */
-        box-sizing: border-box;
-       
-    }
-
-    .game-section img {
-        width: 220px;
-    }
-
-
-.middle-menu-header,
- #menu-checkbox {
-    display: none;
-    top: 128.5px;
-    margin-left: 58.8%;
-    margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
-}
-
-
-.text-container {
-    width: 120%; /* You can adjust this width to your preference */
-    margin-top: 28vh;
-    text-align: center;
-}
-
-
-
-}
-
 
 /* DESKTOP */
 @media (min-width: 860px) {
@@ -246,7 +201,7 @@ header {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 30vh;
+        
     }
     
     .trending {
@@ -329,7 +284,8 @@ header {
 
 
     body {
-        min-height: 250vh;
+
+        min-height: 300vh;
     }
 
     .trending {
@@ -372,16 +328,8 @@ header {
 
 }
 
-@media (max-width: 510px) {
+@media (max-width: 380px) {
 
-    body {
-        min-height: 450vh;
-    }
-
-    .left-background {
-        display: none;
-
-}
 
 .trending {
 
@@ -396,7 +344,7 @@ header {
 }
 
 .game-section img {
-    width: 220px;
+    width: 195px;
 }
 
 .middle-menu-header,
@@ -418,47 +366,15 @@ header {
 }
 
 
-.Logo-gh {
-
-    width: 70px;
-    margin-left: -5px;
-    margin-top: 10px;
-}
-
-.Basket,
-.Profile,
-.hamburger-icon {
- 
-    width: 20px;
-    margin-right: 10px;
-
-}
-
-header {
-    background: #EA9032;
-    color: white;
-    position: fixed;
-    width: 100%;
-    padding: 30px;
-    display: flex;
-    font-size: 20px;
-    text-align: center;
-    
-}
-
-.hamburger-icon {
-    margin-top: -0.5px;
-}
-
 .footer {
     font-size: smaller;
 }
 
-@media (max-width: 363px) {
+@media (max-width: 323px) {
 
 
     body {
-        min-height: 400vh;
+        min-height: 500vh;
     }
 
     .left-background {
