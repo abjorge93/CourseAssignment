@@ -72,7 +72,7 @@ body {
 
 .console-form input {
     margin-right: 5px;
-    margin-bottom: 55px;
+    margin-bottom: 60px;
 }
 
 
@@ -329,6 +329,10 @@ header {
 }
 
 @media (max-width: 380px) {
+
+    body {
+        min-height: 500vh;
+    }
 
 
 .trending {
