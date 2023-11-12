@@ -298,7 +298,7 @@ header {
 
     body {
 
-        min-height: 300vh;
+        min-height: 500vh;
     }
 
  
@@ -350,7 +350,7 @@ header {
 @media (max-width: 380px) {
 
     body {
-        min-height: 550vh;
+        min-height: 600vh;
     }
 
     .biglogo {
