@@ -292,16 +292,14 @@ header {
 }
 
 
-/* MOBILE-MINI */
 @media (max-width: 640px) {
 
 
     body {
 
-        min-height: 500vh;
+        min-height: 600vh;
     }
 
- 
 
 
     .biglogo {
