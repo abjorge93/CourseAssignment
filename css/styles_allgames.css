@@ -4,7 +4,7 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    min-height: 220vh;
+    min-height: 250vh;
 }
 
 .first-section {
@@ -181,15 +181,10 @@ header {
     margin-right: 20px;
 }
 
-/* MOBILE-MINI */
 @media (max-width: 863px) {
 
     body {
-        background-color: #ccd3cb;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        min-height: 250vh;
     }
 
     .trending {
@@ -241,10 +236,9 @@ header {
 @media (min-width: 860px) {
 
     body {
-        display: flex;
-        flex-direction: column;
+        min-height: 250vh;
     }
-
+ 
     .first-section {
         
         flex: 1; /* Take 100% height of the remaining space */
@@ -333,12 +327,9 @@ header {
 /* MOBILE-MINI */
 @media (max-width: 640px) {
 
+
     body {
-        background-color: #ccd3cb;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        min-height: 250vh;
     }
 
     .trending {
@@ -384,11 +375,7 @@ header {
 @media (max-width: 510px) {
 
     body {
-        background-color: #ccd3cb;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        min-height: 450vh;
     }
 
     .left-background {
@@ -409,7 +396,7 @@ header {
 }
 
 .game-section img {
-    width: 200px;
+    width: 220px;
 }
 
 .middle-menu-header,
@@ -469,12 +456,9 @@ header {
 
 @media (max-width: 363px) {
 
+
     body {
-        background-color: #ccd3cb;
-        font-family: Arial, sans-serif;
-        display: flex;
-        flex-direction: column;
-        margin: 0;
+        min-height: 400vh;
     }
 
     .left-background {
