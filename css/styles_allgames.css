@@ -13,6 +13,9 @@ body {
 }
 
 .first-section {
+
+    background-size: cover;
+    width: 100%;
     background-color: #272727; /* Blue color */
     flex: 1; /* Take 100% height of the remaining space */
     display: flex;
@@ -22,24 +25,59 @@ body {
     height: 30vh;
 }
 
-.trending {
-    background-color: #272727; /* Blue color */
+.middlebackground {
+
+    background-position: center;
+    width: 100%;
+    background-color: #ccd3cb; /* Blue color */
+    color: #EA9032;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 10vh;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5px;
-    font-style: initial; 
-    font-weight: bold;
+    height: 30vh;
+    margin: 0;
+}
+
+.trendingtext {
+    width: 200px;
+    margin-top: 100px;
+}
+
+.middlelogo {
+    
+    width: 100%;
+    background-color: #ccd3cb; /* Blue color */
+    color: #EA9032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    margin: 0;
+}
+
+.biglogo {
+    width: 300px;
+    margin-top: 100px;
+}
+
+.trending2 {
+
+    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
+    background-size: cover;
+    width: 100%;
+    background-color: #ccd3cb; /* Blue color */
+    color: #EA9032;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250vh;
     margin-top: 50px;
 }
 
-
 .search-form {
-    margin-top: 195px;
+    margin-top: 135px;
     
     
 }
@@ -58,23 +96,6 @@ body {
     border-radius: 0px 20px 20px 0px;
     cursor: pointer;
 }
-
-.console-form {
-    margin-top: 20px;
-    text-align: center;
-    color: white;
-}
-
-.console-form label {
-    margin-bottom: 8px;
-    padding: 8px;
-}
-
-.console-form input {
-    margin-right: 5px;
-    margin-bottom: 60px;
-}
-
 
 
 header {
@@ -95,6 +116,10 @@ header {
     justify-content: space-evenly;
     margin-top: 50px; /* Adjust the margin as needed */
 
+}
+
+#section2 {
+    margin-top: 150px;
 }
 
 .game-section a {
@@ -203,21 +228,8 @@ header {
         align-items: center;
         
     }
-    
-    .trending {
-        
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        height: 10vh;
-        color: white;
-        font-size: 20px;
-        letter-spacing: 5px;
-        font-style: initial; 
-        font-weight: bold;
-        margin-top: 50px;
-    }
+
+  
 
     .game-section {
         display: flex;
@@ -288,9 +300,17 @@ header {
         min-height: 300vh;
     }
 
-    .trending {
+    .biglogo {
+        margin-top: 0;
+    }
+
+    .middlebackground {
 
         margin-top: 0;
+    }
+
+    .middlebackground {
+     display: none;
     }
 
     .game-section {
@@ -334,10 +354,18 @@ header {
         min-height: 500vh;
     }
 
+    .biglogo {
+        margin-top: 0;
+    }
 
-.trending {
+
+.middlebackground {
 
     margin-top: 0;
+}
+
+#section3 {
+    display: none;
 }
 
 .game-section a {
@@ -386,9 +414,21 @@ header {
 
 }
 
-.trending {
+.biglogo {
+    margin-top: 0;
+}
+
+.middlebackground {
 
     margin-top: 0;
+}
+
+.middlebackground {
+    display: none;
+}
+
+.trending2 {
+    display: none;
 }
 
 .game-section a {
@@ -452,6 +492,9 @@ header {
 .hamburger-icon {
     margin-top: -0.5px;
 }
+
+
+
 
 .footer {
     font-size: smaller;
