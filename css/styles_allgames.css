@@ -122,6 +122,10 @@ header {
     margin-top: 150px;
 }
 
+.section6 {
+    margin-bottom: 100px;
+}
+
 .game-section a {
     text-decoration: none;
     color: black; /* Adjust the color as needed */
