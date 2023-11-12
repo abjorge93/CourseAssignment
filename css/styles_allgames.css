@@ -62,10 +62,7 @@ body {
 }
 
 .trending2 {
-
-    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
-    background-size: cover;
-    width: 100%;
+    
     background-color: #ccd3cb; /* Blue color */
     color: #EA9032;
     display: flex;
@@ -304,17 +301,15 @@ header {
         min-height: 300vh;
     }
 
+ 
+
+
     .biglogo {
         margin-top: 0;
     }
 
     .middlebackground {
-
-        margin-top: 0;
-    }
-
-    .middlebackground {
-     display: none;
+        margin-bottom: 120px;
     }
 
     .game-section {
@@ -355,22 +350,17 @@ header {
 @media (max-width: 380px) {
 
     body {
-        min-height: 500vh;
+        min-height: 550vh;
     }
 
     .biglogo {
-        margin-top: 0;
+        margin: 0;
     }
 
+    .middlebackground {
+        margin-bottom: 120px;
+    }
 
-.middlebackground {
-
-    margin-top: 0;
-}
-
-#section3 {
-    display: none;
-}
 
 .game-section a {
     width: 100%; /* Set the width to less than 50% to account for spacing */
@@ -413,27 +403,16 @@ header {
         min-height: 500vh;
     }
 
-    .left-background {
-        display: none;
-
-}
 
 .biglogo {
     margin-top: 0;
 }
 
 .middlebackground {
-
-    margin-top: 0;
+    margin-bottom: 120px;
 }
 
-.middlebackground {
-    display: none;
-}
 
-.trending2 {
-    display: none;
-}
 
 .game-section a {
     width: 100%; /* Set the width to less than 50% to account for spacing */
