@@ -11,7 +11,8 @@ form {
     max-width: 400px;
     margin: 0 auto;
     margin-top: 210px;
-    background-color: #fff;
+    background-color: #272727;
+    color: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -30,7 +31,7 @@ input, textarea {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #EA9032;
     color: #fff;
     cursor: pointer;
 }
