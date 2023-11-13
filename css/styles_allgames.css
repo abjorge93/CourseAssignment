@@ -25,6 +25,8 @@ body {
     height: 30vh;
 }
 
+
+
 .middlebackground {
 
     background-position: center;
@@ -401,13 +403,15 @@ header {
 @media (max-width: 323px) {
 
 
-    body {
-        min-height: 500vh;
-    }
+body {
 
+    min-height: 500vh;
+
+}
 
 .biglogo {
     margin-top: 0;
+    width: 180px;
 }
 
 .middlebackground {
@@ -487,5 +491,13 @@ header {
 
 
 }
+
+}
+
+@media (max-width: 236px) {
+
+    .search-form {
+        display: none;
+    }
 
 }

@@ -231,7 +231,11 @@ header {
 
 }
 
+.biglogo {
 
+    width: 180px; 
+    
+}
 
 .middle-menu-header,
  #menu-checkbox {
