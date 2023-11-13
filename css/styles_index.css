@@ -128,9 +128,6 @@ header {
     margin-right: 20px;
 }
 
-.boxer-weekly-offer-desktop {
-    display: none; 
-}
 
 .boxer-weekly-offer-mobile {
     position: relative; 
@@ -161,13 +158,14 @@ header {
 @media (min-width: 860px) {
 
     body {
-        min-height: 100vh;
+        min-height: 220vh;
         display: flex;
         flex-direction: column;
     }
 
-    .furious-frontpage-mobile {
-        display: none;
+    .boxer-weekly-offer-mobile {
+        width: 400px;
+        top: 400px;
     }
 
     .main-content {
@@ -201,20 +199,6 @@ header {
         visibility: collapse;
     }
 
-
-    .boxer-weekly-offer-desktop {
-        width: 180px;
-        position: relative;
-        left: 200px;
-        top: 80px;
-    }
-    .boxer-weekly-offer-mobile {
-        display: none;
-    }
-
-    .superduper-frontpage-mobile {
-        display: none;
-    }
 
     .footer {
         background-color: #EA9032;
