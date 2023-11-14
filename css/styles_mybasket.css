@@ -28,6 +28,13 @@ header {
     margin-left: 10px;
 }
 
+.emptybasket {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 300px;
+    width: 350px;
+}
+
 
 
 .middle-menu-header {
