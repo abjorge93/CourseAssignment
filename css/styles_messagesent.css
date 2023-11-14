@@ -8,59 +8,6 @@ body {
 }
 
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    margin-top: 270px;
-    background-color: #272727;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contactscheme {
-
-    
-    position: relative; 
-    left: 36%;
-    top: 250px;
-    width: 220px;
-    transform: translate(-50%, -50%);
-
-
-
-}
-
-label {
-    display: block;
-    margin-bottom: 8px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 16px;
-    box-sizing: border-box;
-}
-
-input[type="submit"] {
-    background-color: #EA9032;
-    color: #fff;
-    cursor: pointer;
-    padding: 8px 20px;
-    border: 2px solid white;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #45a049;
-    color: white; /* Set text color to white */
-
-}
-
-
 header {
     background: #EA9032;
     color: white;
@@ -81,7 +28,13 @@ header {
     margin-left: 10px;
 }
 
-
+.messagesent {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 350px;
+    width: 800px;
+    
+}
 
 .middle-menu-header {
     position: absolute;
@@ -209,8 +162,15 @@ header {
 }
 
 /* MOBILE-MINI */
-@media (max-width: 450px) {
+@media (max-width: 808px) {
 
+    .messagesent {
+
+        width: 450px;
+        
+    }
+
+}
 
 .middle-menu-header,
  #menu-checkbox {
@@ -229,19 +189,29 @@ header {
     text-align: center;
 }
 
+@media (max-width: 808px) {
+
+
+
+
 }
 
-@media (max-width: 300px) {
+@media (max-width: 455px) {
 
     .left-background {
         display: none;
 
 }
 
-.biglogo {
+/* MOBILE-MINI */
+@media (max-width: 808px) {
 
-    width: 180px; 
-    
+    .messagesent {
+
+        width: 300px;
+        
+    }
+
 }
 
 .middle-menu-header,
