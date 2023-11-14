@@ -231,7 +231,7 @@ header {
 @media (min-width: 860px) {
 
     body {
-        min-height: 250vh;
+        min-height: 300vh;
     }
  
     .first-section {

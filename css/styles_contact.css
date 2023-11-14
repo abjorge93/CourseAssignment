@@ -5,13 +5,13 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
+    min-height: 100vh;
 }
 
 
 form {
     max-width: 400px;
     margin: 0 auto;
-    margin-top: 270px;
     background-color: #272727;
     color: white;
     padding: 20px;
@@ -24,7 +24,7 @@ form {
     
     position: relative; 
     left: 36%;
-    top: 250px;
+    margin-top: 200px;
     width: 220px;
     transform: translate(-50%, -50%);
 
@@ -160,7 +160,7 @@ header {
 @media (min-width: 860px) {
 
     body {
-        min-height: 100vh;
+        min-height: 200vh;
         display: flex;
         flex-direction: column;
     }
