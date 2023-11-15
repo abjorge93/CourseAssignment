@@ -208,18 +208,10 @@ header {
    
 }
 
-/* MOBILE-MINI */
+
 @media (max-width: 450px) {
 
 
-.middle-menu-header,
- #menu-checkbox {
-    display: none;
-    top: 128.5px;
-    margin-left: 58.8%;
-    margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
-}
 
 form {
  margin-left: 10px;
@@ -228,25 +220,11 @@ form {
 
 
 
-.text-container {
-    width: 120%; /* You can adjust this width to your preference */
-    margin-top: 28vh;
-    text-align: center;
-}
-
-}
-
-@media (max-width: 310px) {
-
-    .left-background {
-        display: none;
-
-}
-
 .contactscheme {
 
 width: 180px;
 margin-left: 45px;
+margin-top: 170px;
 
 }
 
@@ -311,5 +289,5 @@ header {
     font-size: smaller;
 }
 
-
 }
+

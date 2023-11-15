@@ -174,8 +174,8 @@ button:hover {
 
 @media (max-width: 660px) {
 
-    .left-background {
-     display: none;
+.left-background {
+    display: none;
  }
 
  .right-content {
@@ -192,7 +192,7 @@ button:hover {
 .button1 {
 
    
-    margin-top: 40vh;
+    margin-top: 30vh;
     
 
 }
@@ -201,29 +201,7 @@ button:hover {
 
 
 
-/* MOBILE-MINI */
-@media (max-width: 450px) {
 
-
-.middle-menu-header,
- #menu-checkbox {
-    display: none;
-    top: 128.5px;
-    margin-left: 58.8%;
-    margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
-}
-
-
-
-.text-container {
-    width: 120%; /* You can adjust this width to your preference */
-    margin-top: 28vh;
-    text-align: center;
-}
-
-
-}
 
 @media (max-width: 300px) {
 
@@ -232,26 +210,26 @@ button:hover {
 
 }
 
-.right-content {
-    width: 100%;
-}
 
 .right-container {
-    width: 100%;
-    margin-top: 25vh;
-    margin-left: 100px;
+    position: relative;
+    margin-top: 30vh;
+    margin-left: 0;
+    
     
 }
 
 .emptycart {
+    position: relative;
     width: 200px;
-    margin-top: 100px;
+    left: 45px;
+    
 }
 
 .button1 {
 
    
-    margin-top: 50vh;
+    margin-top: 35vh;
     margin-left: 5px;
 }
 
