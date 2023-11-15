@@ -28,41 +28,59 @@ header {
     margin-left: 10px;
 }
 
-
-.emptybasket {
-    position: relative;
-    left: 350px;
-    top: 480px;
-    width: 350px;
+.main-content {
+    display: flex;
+   
 }
 
-.joystick {
-    position: relative;
-    left: 60%;
-    top: 200px;
-    margin: 0;
-    width: 350px;
+
+.left-background {
+    background-image: url('../images/Components/joystick.png');
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 50%;
+    height: 100vh;
+    margin-left: 150px;
+    
 }
 
-.button1 { 
-    width: 250px;
+
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-container {
+    width: 80%; /* You can adjust this width to your preference */
+    margin-top: 12vh;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.emptycart {
+    width: 400px;
+}
+
+button {
     color: white; /* Set text color to white */
     padding: 8px 20px;
     background-color: #EA9032;
     border: 2px solid black;
     border-radius: 20px;
     cursor: pointer;
-    
+    width: 200px;
 }
 
 .button1 {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 220px; /* Adjust this value as needed to position the button properly */
+    bottom: 200px;
  
 }
-
 
 button:hover {
     background-color: #45a049;
@@ -141,96 +159,46 @@ button:hover {
     margin-right: 20px;
 }
 
-@media (max-width: 1112px) {
+@media (max-width: 888px) {
 
-    .emptybasket {
-        position: relative;
-        left: 220px;
-        top: 370px;
+    .left-background {
+     background-size: 150px;
+    }
+
+    .emptycart {
         width: 300px;
     }
     
-    .joystick {
-        position: relative;
-        left: 60%;
-        top: 120px;
-        margin: 0;
-        width: 300px;
-    }
 
+}
+
+@media (max-width: 660px) {
+
+    .left-background {
+     display: none;
+ }
+
+ .right-content {
+    width: 100%;
+}
+
+.right-container {
+    width: 100%;
+    margin-top: 50vh;
+    margin-left: 150px;
     
-    .button1 {
-        
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 150px; /* Adjust this value as needed to position the button properly */
-     
-    }
+}
+
+.button1 {
+
+   
+    margin-top: 30vh;
     
 
 }
 
-@media (max-width: 824px) {
-
-    .emptybasket {
-        position: relative;
-        left: 120px;
-        top: 370px;
-        width: 250px;
-    }
-    
-    .joystick {
-        position: relative;
-        left: 60%;
-        top: 120px;
-        margin: 0;
-        width: 250px;
-    }
-
-    
-    .button1 {
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-        top: 150px; /* Adjust this value as needed to position the button properly */
-     
-    }
-    
-
 }
 
-@media (max-width: 602px) {
-
-    .emptybasket,
-    .joystick,
-    .button1 {
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        width: 250px;
-    }
-
-
-    .emptybasket {
-        top: 350px;
-    }
-
-    .joystick {
-     
-        width: 200px;
-        margin-top: 80px;
-        
-    }
-
-    .button1 {
-
-        top: 700px;
-
-    }
-
-}
 
 
 /* MOBILE-MINI */
@@ -258,28 +226,34 @@ button:hover {
 
 @media (max-width: 300px) {
 
-    .left-background {
-        display: none;
+.left-background {
+    display: none;
 
 }
 
-.emptybasket {
-    top: 350px;
-    width: 180px;
+.right-content {
+    width: 100%;
 }
 
-.joystick {
- 
-    width: 150px;
-    margin-top: 80px;
+.right-container {
+    width: 100%;
+    margin-top: 30vh;
+    margin-left: 100px;
     
+}
+
+.emptycart {
+    width: 200px;
+    margin-top: 100px;
 }
 
 .button1 {
 
-    
-    width: 170px;
+   
+    margin-top: 40vh;
+    margin-left: 5px;
 }
+
 
 .middle-menu-header,
  #menu-checkbox {
