@@ -45,7 +45,7 @@ header {
 }
 
 .button1 { 
-    width: 180px;
+    width: 250px;
     color: white; /* Set text color to white */
     padding: 8px 20px;
     background-color: #EA9032;
@@ -160,6 +160,7 @@ button:hover {
 
     
     .button1 {
+        
         position: relative;
         left: 50%;
         transform: translateX(-50%);
@@ -225,7 +226,7 @@ button:hover {
 
     .button1 {
 
-        top: 850px;
+        top: 700px;
 
     }
 
@@ -276,7 +277,7 @@ button:hover {
 
 .button1 {
 
-    top: 850px;
+    
     width: 170px;
 }
 
