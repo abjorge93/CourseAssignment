@@ -59,7 +59,7 @@ header {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 280px; /* Adjust this value as needed to position the button properly */
+    top: 220px; /* Adjust this value as needed to position the button properly */
  
 }
 
