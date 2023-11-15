@@ -28,13 +28,45 @@ header {
     margin-left: 10px;
 }
 
+
 .emptybasket {
-    display: flex;
-    margin-left: 25%;
-    margin-top: 300px;
+    position: relative;
+    left: 300px;
+    top: 370px;
+    width: 250px;
+}
+
+.joystick {
+    position: relative;
+    left: 60%;
+    top: 80px;
+    margin: 0;
     width: 350px;
 }
 
+.button1 { 
+    width: 180px;
+    color: white; /* Set text color to white */
+    padding: 8px 20px;
+    background-color: #EA9032;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    
+}
+
+.button1 {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px; /* Adjust this value as needed to position the button properly */
+ 
+}
+
+
+button:hover {
+    background-color: #45a049;
+}
 
 
 .middle-menu-header {
