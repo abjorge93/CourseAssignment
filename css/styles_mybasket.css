@@ -184,7 +184,7 @@ button:hover {
 
 .right-container {
     width: 100%;
-    margin-top: 50vh;
+    margin-top: 40vh;
     margin-left: 150px;
     
 }
@@ -192,7 +192,7 @@ button:hover {
 .button1 {
 
    
-    margin-top: 30vh;
+    margin-top: 40vh;
     
 
 }
@@ -222,6 +222,7 @@ button:hover {
     text-align: center;
 }
 
+
 }
 
 @media (max-width: 300px) {
@@ -237,7 +238,7 @@ button:hover {
 
 .right-container {
     width: 100%;
-    margin-top: 30vh;
+    margin-top: 25vh;
     margin-left: 100px;
     
 }
@@ -250,7 +251,7 @@ button:hover {
 .button1 {
 
    
-    margin-top: 40vh;
+    margin-top: 50vh;
     margin-left: 5px;
 }
 
