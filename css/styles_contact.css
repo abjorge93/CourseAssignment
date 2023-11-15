@@ -221,6 +221,11 @@ header {
     z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
 }
 
+form {
+ margin-left: 10px;
+ margin-right: 10px;
+}
+
 
 
 .text-container {
@@ -231,10 +236,17 @@ header {
 
 }
 
-@media (max-width: 300px) {
+@media (max-width: 310px) {
 
     .left-background {
         display: none;
+
+}
+
+.contactscheme {
+
+width: 180px;
+margin-left: 45px;
 
 }
 
