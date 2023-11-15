@@ -1,7 +1,7 @@
 body {
     background-color: #EEF4ED;
     font-family: Arial, sans-serif;
-    min-height: 200vh;
+    min-height: 250vh;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -31,15 +31,15 @@ header {
 
 .emptybasket {
     position: relative;
-    left: 300px;
-    top: 370px;
-    width: 250px;
+    left: 350px;
+    top: 480px;
+    width: 350px;
 }
 
 .joystick {
     position: relative;
     left: 60%;
-    top: 80px;
+    top: 200px;
     margin: 0;
     width: 350px;
 }
@@ -59,7 +59,7 @@ header {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 120px; /* Adjust this value as needed to position the button properly */
+    top: 280px; /* Adjust this value as needed to position the button properly */
  
 }
 
@@ -141,58 +141,96 @@ button:hover {
     margin-right: 20px;
 }
 
+@media (max-width: 1112px) {
 
-/* DESKTOP */
-@media (min-width: 860px) {
-
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+    .emptybasket {
+        position: relative;
+        left: 220px;
+        top: 370px;
+        width: 300px;
+    }
+    
+    .joystick {
+        position: relative;
+        left: 60%;
+        top: 120px;
+        margin: 0;
+        width: 300px;
     }
 
-
-    .middle-menu-header-desktop {
-        display: inline-block;
-        margin-left: auto;
-        margin-top: 10px;
+    
+    .button1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px; /* Adjust this value as needed to position the button properly */
+     
     }
+    
 
-        
-    .middle-menu-header-desktop a {
-        display: inline-block;
-        color: white;
-        text-decoration: none;
-        padding: 0 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        font-size: 18px;
-    }
-
-
-    .hamburger-icon {
-        display: none;
-    }
-
-    .middle-menu-header {
-        visibility: collapse;
-    }
-
-
-    .footer {
-        background-color: #EA9032;
-        color: white;
-        position: fixed;
-        bottom: 0;
-        width: 100%;
-        text-align: center;
-        padding: 20px;
-        margin-top: auto;
-    }
-
-  
-   
 }
+
+@media (max-width: 824px) {
+
+    .emptybasket {
+        position: relative;
+        left: 120px;
+        top: 370px;
+        width: 250px;
+    }
+    
+    .joystick {
+        position: relative;
+        left: 60%;
+        top: 120px;
+        margin: 0;
+        width: 250px;
+    }
+
+    
+    .button1 {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 150px; /* Adjust this value as needed to position the button properly */
+     
+    }
+    
+
+}
+
+@media (max-width: 602px) {
+
+    .emptybasket,
+    .joystick,
+    .button1 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 250px;
+    }
+
+
+    .emptybasket {
+        top: 350px;
+    }
+
+    .joystick {
+     
+        width: 200px;
+        margin-top: 80px;
+        
+    }
+
+    .button1 {
+
+        top: 850px;
+
+    }
+
+}
+
 
 /* MOBILE-MINI */
 @media (max-width: 450px) {
@@ -224,7 +262,23 @@ button:hover {
 
 }
 
+.emptybasket {
+    top: 350px;
+    width: 180px;
+}
 
+.joystick {
+ 
+    width: 150px;
+    margin-top: 80px;
+    
+}
+
+.button1 {
+
+    top: 850px;
+    width: 170px;
+}
 
 .middle-menu-header,
  #menu-checkbox {
