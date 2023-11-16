@@ -1,0 +1,296 @@
+body {
+    background-color: #EEF4ED;
+    font-family: Arial, sans-serif;
+    min-height: 250vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+}
+
+
+header {
+    background: #EA9032;
+    color: white;
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    font-size: 25px;
+    text-align: center;
+    z-index: 1;
+    
+}
+
+
+.Logo-gh {
+    width: 100px;
+    margin-left: 10px;
+}
+
+
+
+.middle-menu-header {
+    position: absolute;
+    background: #EA9032;
+    padding: 5px;
+    right: 0px;
+    margin-right: 0;
+    
+}
+
+
+.middle-menu-header,
+ #menu-checkbox {
+    display: none;
+    top: 128.5px;
+    margin-left: 58.8%;
+    margin-right: 60px;
+    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+}
+
+.right-menu-header {
+    display: flex; 
+    margin-top: 20px;
+    margin-right: 40px;
+    margin-left: auto; 
+}
+
+.Basket,
+.Profile,
+.hamburger-icon {
+ 
+    width: 30px;
+    margin-right: 18px;
+
+}
+
+#menu-checkbox:checked ~ .middle-menu-header {
+    display: block;
+}
+
+
+
+.middle-menu-header a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    
+
+}
+
+.middle-menu-header-desktop {
+    display: none;
+}
+
+.footer {
+    background-color: #EA9032;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: auto;
+}
+
+.footertext1 {
+    margin-right: 20px;
+}
+
+
+
+@media (min-width: 860px) {
+
+    body {
+        min-height: 220vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .boxer-weekly-offer-mobile {
+        width: 400px;
+        top: 410px;
+    }
+
+    .main-content {
+    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
+    overflow: auto; /* Enable scrolling within the main content area if necessary */
+}
+
+    .middle-menu-header-desktop {
+        display: inline-block;
+        margin-left: auto;
+        margin-top: 10px;
+    }
+
+        
+    .middle-menu-header-desktop a {
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        padding: 0 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+
+
+    .hamburger-icon {
+        display: none;
+    }
+
+    .middle-menu-header {
+        visibility: collapse;
+    }
+
+
+    .footer {
+        background-color: #EA9032;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto;
+    }
+   
+}
+
+@media (max-width: 376px) {
+
+
+    
+    header {
+        background: #EA9032;
+        color: white;
+        position: fixed;
+        width: 100%;
+        padding: 30px;
+        display: flex;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    
+    
+    
+    .Logo-gh {
+        width: 100px;
+        margin-left: 10px;
+    }
+    
+    
+    
+    .middle-menu-header {
+        position: absolute;
+        background: #EA9032;
+        padding: 5px;
+        right: 0px;
+        margin-right: 0;
+        
+    }
+    
+    
+    .middle-menu-header,
+    #menu-checkbox {
+       display: none;
+       top: 114.5px;
+       margin-left: 58.8%;
+       margin-right: 60px;
+       z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+   }
+    
+    .right-menu-header {
+        display: flex; 
+        margin-top: 20px;
+        margin-right: 40px;
+        margin-left: auto; 
+    }
+    
+    
+    #menu-checkbox:checked ~ .middle-menu-header {
+        display: block;
+    }
+    
+    
+    
+    .middle-menu-header a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        padding: 0 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 18px;
+        
+    
+    }
+    
+    
+    .middle-menu-header-desktop {
+        display: none;
+    }
+    
+    .footer {
+        background-color: #EA9032;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        margin-top: auto;
+    }
+    
+    .footertext1 {
+        margin-right: 20px;
+    }
+    
+
+    .hamburger-icon {
+        margin-top: -0.5px;
+    }
+
+    .Basket,
+    .Profile,
+    .hamburger-icon {
+     
+        width: 20px;
+        margin-right: 10px;
+    
+    }
+
+    .Logo-gh {
+    
+        width: 70px;
+        margin-left: -5px;
+        margin-top: 10px;
+    }
+
+    button {
+        display: block;
+        color: white; /* Set text color to white */
+        padding: 8px 20px;
+        background-color: #1F1C3B;
+        border: 2px solid white;
+        border-radius: 20px;
+        cursor: pointer;
+        width: 200px;
+        margin-top: 50px;
+    }
+  
+    .footer {
+        font-size: smaller;
+    }
+    
+
+}
