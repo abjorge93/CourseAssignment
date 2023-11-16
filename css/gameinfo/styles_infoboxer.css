@@ -5,12 +5,65 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+
 }
 
+.main-content {
+    display: flex;
+   
+}
+
+button {
+    color: white; /* Set text color to white */
+    padding: 8px 20px;
+    background-color: #EA9032;
+    border: 2px solid black;
+    border-radius: 20px;
+    cursor: pointer;
+    width: 200px;
+}
+
+.button1 { 
+    width: 150px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 8vh;
+
+}
+
+.button2 { 
+    width: 150px;
+    margin: 0 auto; /* Center aligns the button */
+    margin-top: 8vh;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.left-background {
+    background-image: url('/images/games/boxer-checkout.png');
+    background-position: left;
+    background-size: contain;
+    width: 400px;
+    height: 106vh;
+    margin-left: 30px;
+    background-repeat: no-repeat;
+}
+
+
+.right-content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    width: 80%; /* You can adjust this width to your preference */
+    margin-top: 12vh;
+    text-align: center;
+}
 
 header {
     background: #EA9032;
