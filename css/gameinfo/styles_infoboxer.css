@@ -47,7 +47,7 @@ button:hover {
     background-size: contain;
     width: 400px;
     height: 106vh;
-    margin-left: 30px;
+    margin-left: 50px;
     background-repeat: no-repeat;
 }
 
@@ -158,6 +158,27 @@ header {
     margin-right: 20px;
 }
 
+@media (max-width: 860px) {
+
+
+
+    .button1 { 
+        width: 100px;
+        margin: 0 auto; /* Center aligns the button */
+        margin-top: 5vh;
+        font-size: 8px;
+        
+    }
+    
+    .button2 { 
+        width: 100px;
+        margin: 0 auto; /* Center aligns the button */
+        margin-top: 5vh;
+        margin-left: 10px;
+        font-size: 8px;
+        
+    }
+}
 
 
 @media (min-width: 860px) {
@@ -168,10 +189,6 @@ header {
         flex-direction: column;
     }
 
-    .boxer-weekly-offer-mobile {
-        width: 400px;
-        top: 410px;
-    }
 
     .main-content {
     flex-grow: 1; /* This allows the main content area to grow and push the footer down */
@@ -216,6 +233,31 @@ header {
         margin-top: auto;
     }
    
+}
+
+@media (max-width: 661px) {
+
+    
+    .left-background {
+     
+        display: none;
+    }
+
+
+    .right-content {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-container {
+        width: 80%; /* You can adjust this width to your preference */
+        margin-top: 50vh;
+        text-align: center;
+    }
+
+
 }
 
 @media (max-width: 376px) {
