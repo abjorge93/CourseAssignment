@@ -13,6 +13,14 @@ body {
    
 }
 
+.game-middle-screen {
+    position: relative; 
+    left: 50%;
+    top: 290px;
+    width: 150px;
+    transform: translate(-50%, -50%);
+}
+
 button {
     color: white; /* Set text color to white */
     padding: 8px 20px;
@@ -158,6 +166,16 @@ header {
     margin-right: 20px;
 }
 
+@media (min-width: 1450px) {
+
+    .left-background {
+
+        margin-left: 300px;
+        
+    }
+        
+    }
+
 @media (max-width: 860px) {
 
 
@@ -237,6 +255,15 @@ header {
    
 }
 
+@media (min-width: 661px) {
+
+    
+   .game-middle-screen {
+    display: none;
+   }
+
+    }
+
 @media (max-width: 661px) {
 
     
@@ -255,7 +282,7 @@ header {
     
     .text-container {
         width: 80%; /* You can adjust this width to your preference */
-        margin-top: 50vh;
+        margin-top: 30vh;
         text-align: center;
     }
 
@@ -373,18 +400,7 @@ header {
         margin-top: 10px;
     }
 
-    button {
-        display: block;
-        color: white; /* Set text color to white */
-        padding: 8px 20px;
-        background-color: #1F1C3B;
-        border: 2px solid white;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 200px;
-        margin-top: 50px;
-    }
-  
+
     .footer {
         font-size: smaller;
     }
