@@ -255,23 +255,23 @@ header {
    
 }
 
-@media (min-width: 661px) {
+@media (min-width: 701px) {
 
     
-   .game-middle-screen {
-    display: none;
-   }
-
+    .game-middle-screen {
+     display: none;
     }
-
-@media (max-width: 661px) {
-
-    
-    .left-background {
+ 
+     }
+ 
+ @media (max-width: 700px) {
+ 
      
-        display: none;
-    }
-
+     .left-background {
+      
+         display: none;
+     }
+ 
 
     .right-content {
         width: 100%;

@@ -255,7 +255,7 @@ header {
    
 }
 
-@media (min-width: 661px) {
+@media (min-width: 701px) {
 
     
    .game-middle-screen {
@@ -264,7 +264,7 @@ header {
 
     }
 
-@media (max-width: 661px) {
+@media (max-width: 700px) {
 
     
     .left-background {
