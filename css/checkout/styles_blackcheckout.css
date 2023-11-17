@@ -12,6 +12,40 @@ body {
 }
 
 
+        .checkoutsection {
+            
+            position: relative;
+            width: 200px;
+            left: 150px;
+            top: 250px;
+        }
+
+        .productsection {
+            width: 100px; /* Adjust the width as needed */
+            
+        }
+         
+        
+
+        form {
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
 header {
     background: #EA9032;
     color: white;
