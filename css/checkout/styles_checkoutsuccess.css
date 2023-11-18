@@ -25,6 +25,14 @@ header {
     
 }
 
+.checksuccess {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    width: 400px;
+    top: 250px;
+    
+}
 
 .Logo-gh {
     width: 100px;
@@ -163,6 +171,19 @@ header {
         margin-top: auto;
     }
    
+}
+
+@media (max-width: 500px) {
+
+    .checksuccess {
+        position: relative;
+        display: flex;
+        margin: 0 auto;
+        width: 300px;
+        top: 250px;
+        
+    }
+
 }
 
 @media (max-width: 376px) {
