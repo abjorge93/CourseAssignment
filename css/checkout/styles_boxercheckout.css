@@ -12,6 +12,92 @@ body {
 }
 
 
+.right-background {
+    position: relative;
+    background-image: url('/images/Components/controller3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 20vh;
+    right: 200px;
+    top: 150px;
+
+    
+}
+
+        .checkoutsection {
+            
+            position: relative;
+            width: 200px;
+            left: 200px;
+            top: 20px;
+            
+        }
+
+        .blackcheckoutimg {
+            position: relative;
+            left: 190px;
+            top: 190px;
+            width: 350px;
+            margin-bottom: 10px;
+        }
+
+        #expiryDate,
+        #ccv {
+            width: 48%; /* Adjusted to leave some space for separation */
+            display: inline-block;
+        }
+    
+        #expiryDate {
+            position: relative;
+            left: 104px;
+        }
+
+        #ccv {
+            position: relative;
+            bottom: 54px;
+        }
+
+
+        
+         
+        button {
+            position: relative;
+            color: white; /* Set text color to white */
+            padding: 8px;
+            background-color: #45a049;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            bottom: 50px;
+            
+            
+        }
+        
+        
+        button:hover {
+            
+            
+            background-color: #34b93b;
+            font-size: 13.5px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 12px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
 header {
     background: #EA9032;
     color: white;
@@ -106,6 +192,34 @@ header {
 }
 
 
+@media (max-width: 1041px) {
+
+    .right-background {
+     display: none;
+     
+        
+    }
+
+    .checkoutsection {
+        
+        display: flex;    
+        position: static;
+        margin: 0 auto;
+        margin-top: 25px;
+        
+        
+    }
+
+    .blackcheckoutimg {
+        display: flex;
+        position: static;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+
+}
+
+
 
 @media (min-width: 860px) {
 
@@ -113,11 +227,6 @@ header {
         min-height: 220vh;
         display: flex;
         flex-direction: column;
-    }
-
-    .boxer-weekly-offer-mobile {
-        width: 400px;
-        top: 410px;
     }
 
     .main-content {
@@ -181,7 +290,7 @@ header {
         
     }
     
-    
+
     
     .Logo-gh {
         width: 100px;
@@ -276,18 +385,7 @@ header {
         margin-top: 10px;
     }
 
-    button {
-        display: block;
-        color: white; /* Set text color to white */
-        padding: 8px 20px;
-        background-color: #1F1C3B;
-        border: 2px solid white;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 200px;
-        margin-top: 50px;
-    }
-  
+
     .footer {
         font-size: smaller;
     }
