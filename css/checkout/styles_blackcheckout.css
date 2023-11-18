@@ -12,12 +12,31 @@ body {
 }
 
 
+.right-background {
+    position: relative;
+    background-image: url('/images/Components/controller3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 20vh;
+    right: 200px;
+    top: 330px;
+
+    
+}
+
         .checkoutsection {
             
             position: relative;
             width: 200px;
-            left: 150px;
-            top: 350px;
+            left: 200px;
+            top: 20px;
+            
+        }
+
+        .blackcheckoutimg {
+            width: 350px;
+            margin-bottom: 10px;
         }
 
         #expiryDate,
@@ -55,7 +74,6 @@ body {
             
         }
         
-   
         
         button:hover {
             

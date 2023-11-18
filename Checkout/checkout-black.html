@@ -59,25 +59,29 @@
 
    <main> 
 
-    <section class="checkoutsection">
+    <div class="right-background">
 
-        <form id="checkoutForm">
-            
-            <label for="email"></label>
-            <input type="email" id="email" name="email" placeholder="E-Mail" required><br>
-    
-            <label for="cardNumber"></label>
-            <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" required><br>
-    
-            <label for="expiryDate"></label>
-            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
-    
-            <label for="ccv"></label>
-            <input type="text" id="ccv" name="ccv" placeholder="CCV" required><br>
-    
-            <button type="button" onclick="submitForm()">Purchase</button>
+    </div>
 
-        </form>
+        <section class="checkoutsection">
+
+        <img class="blackcheckoutimg" src="../images/Checkout/blackcheckout.png">
+
+            <form id="checkoutForm">
+                <label for="email"></label>
+                <input type="email" id="email" name="email" placeholder="E-Mail" required><br>
+    
+                <label for="cardNumber"></label>
+                <input type="text" id="cardNumber" name="cardNumber" placeholder="Card Number" required><br>
+    
+                <label for="expiryDate"></label>
+                <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required><br>
+    
+                <label for="ccv"></label>
+                <input type="text" id="ccv" name="ccv" placeholder="CCV" required><br>
+                
+                <button type="button" onclick="submitForm()">Purchase</button>
+            </form>
 
         </section>
 
