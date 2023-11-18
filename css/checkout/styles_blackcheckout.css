@@ -20,7 +20,7 @@ body {
     background-position: right;
     height: 20vh;
     right: 200px;
-    top: 330px;
+    top: 150px;
 
     
 }
@@ -35,6 +35,9 @@ body {
         }
 
         .blackcheckoutimg {
+            position: relative;
+            left: 190px;
+            top: 190px;
             width: 350px;
             margin-bottom: 10px;
         }
@@ -55,10 +58,8 @@ body {
             bottom: 54px;
         }
 
-        .productsection {
-            width: 100px; /* Adjust the width as needed */
-            
-        }
+
+        
          
         button {
             position: relative;
@@ -191,6 +192,32 @@ header {
 }
 
 
+@media (max-width: 1041px) {
+
+    .right-background {
+     display: none;
+     
+        
+    }
+
+    .checkoutsection {
+        
+        display: flex;    
+        position: static;
+        margin: 0 auto;
+        margin-top: 25px;
+        
+        
+    }
+
+    .blackcheckoutimg {
+        display: flex;
+        position: static;
+        margin: 0 auto;
+        margin-top: 200px;
+    }
+
+}
 
 
 
@@ -200,11 +227,6 @@ header {
         min-height: 220vh;
         display: flex;
         flex-direction: column;
-    }
-
-    .boxer-weekly-offer-mobile {
-        width: 400px;
-        top: 410px;
     }
 
     .main-content {
@@ -268,13 +290,7 @@ header {
         
     }
     
-    #expiryDate,
-    #ccv {
 
-        width: 100%; /* Full width for smaller screens */
-        display: block;
-        position: static; /* Remove positioning */
-    }
     
     .Logo-gh {
         width: 100px;
@@ -369,18 +385,7 @@ header {
         margin-top: 10px;
     }
 
-    button {
-        display: block;
-        color: white; /* Set text color to white */
-        padding: 8px 20px;
-        background-color: #1F1C3B;
-        border: 2px solid white;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 200px;
-        margin-top: 50px;
-    }
-  
+
     .footer {
         font-size: smaller;
     }
