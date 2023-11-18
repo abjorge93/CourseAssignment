@@ -51,6 +51,7 @@ body {
         #expiryDate {
             position: relative;
             left: 104px;
+            top: -1.5px;
         }
 
         #ccv {
@@ -216,6 +217,7 @@ header {
         margin: 0 auto;
         margin-top: 200px;
     }
+
 
 }
 
