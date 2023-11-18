@@ -17,7 +17,23 @@ body {
             position: relative;
             width: 200px;
             left: 150px;
-            top: 250px;
+            top: 350px;
+        }
+
+        #expiryDate,
+        #ccv {
+            width: 48%; /* Adjusted to leave some space for separation */
+            display: inline-block;
+        }
+    
+        #expiryDate {
+            position: relative;
+            left: 104px;
+        }
+
+        #ccv {
+            position: relative;
+            bottom: 54px;
         }
 
         .productsection {
@@ -25,16 +41,33 @@ body {
             
         }
          
+        button {
+            position: relative;
+            color: white; /* Set text color to white */
+            padding: 8px;
+            background-color: #45a049;
+            border: 2px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            bottom: 50px;
+            
+            
+        }
         
-
-        form {
-            margin-bottom: 20px;
+   
+        
+        button:hover {
+            
+            
+            background-color: #34b93b;
+            font-size: 13.5px;
         }
 
         label {
             display: block;
             margin-bottom: 8px;
-            color: #333;
+            
         }
 
         input {
@@ -141,6 +174,8 @@ header {
 
 
 
+
+
 @media (min-width: 860px) {
 
     body {
@@ -215,7 +250,13 @@ header {
         
     }
     
-    
+    #expiryDate,
+    #ccv {
+
+        width: 100%; /* Full width for smaller screens */
+        display: block;
+        position: static; /* Remove positioning */
+    }
     
     .Logo-gh {
         width: 100px;
