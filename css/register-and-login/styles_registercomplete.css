@@ -206,9 +206,9 @@ header {
 /* MOBILE-MINI */
 @media (max-width: 808px) {
 
-    .messagesent {
+    .creationcomplete {
 
-        width: 350px;
+        width: 300px;
         
     }
 

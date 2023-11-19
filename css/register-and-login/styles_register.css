@@ -360,6 +360,20 @@ button {
    
 }
 
+@media (max-width: 600px) {
+
+    .loginsection {
+
+        position: static;
+        position: relative; 
+        left: 60%;
+        top: 150px;
+      
+
+        }
+
+}
+
 @media (max-width: 376px) {
 
 
@@ -376,7 +390,15 @@ button {
         
     }
     
-    
+    .loginsection {
+
+        position: static;
+        position: relative; 
+        left: 55%;
+        top: 150px;
+      
+
+        }
     
     .Logo-gh {
         width: 100px;
