@@ -22,7 +22,7 @@ body {
 }
 
 button {
-    color: white; /* Set text color to white */
+    color: white; 
     padding: 8px 20px;
     background-color: #EA9032;
     border: 2px solid black;
@@ -33,14 +33,14 @@ button {
 
 .button1 { 
     width: 150px;
-    margin: 0 auto; /* Center aligns the button */
+    margin: 0 auto; 
     margin-top: 5vh;
 
 }
 
 .button2 { 
     width: 150px;
-    margin: 0 auto; /* Center aligns the button */
+    margin: 0 auto; 
     margin-top: 5vh;
     margin-left: 10px;
 }
@@ -68,7 +68,7 @@ button:hover {
 }
 
 .text-container {
-    width: 80%; /* You can adjust this width to your preference */
+    width: 80%; 
     margin-top: 12vh;
     text-align: center;
 }
@@ -110,7 +110,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -182,7 +182,7 @@ header {
 
     .button1 { 
         width: 100px;
-        margin: 0 auto; /* Center aligns the button */
+        margin: 0 auto; 
         margin-top: 5vh;
         font-size: 12px;
         padding: 5px
@@ -191,7 +191,7 @@ header {
     
     .button2 { 
         width: 100px;
-        margin: 0 auto; /* Center aligns the button */
+        margin: 0 auto; 
         margin-top: 5vh;
         margin-left: 10px;
         font-size: 12px;
@@ -211,8 +211,8 @@ header {
 
 
     .main-content {
-    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
-    overflow: auto; /* Enable scrolling within the main content area if necessary */
+    flex-grow: 1;
+    overflow: auto; 
 }
 
     .middle-menu-header-desktop {
@@ -281,7 +281,7 @@ header {
     }
     
     .text-container {
-        width: 80%; /* You can adjust this width to your preference */
+        width: 80%; 
         margin-top: 25vh;
         text-align: center;
     }
@@ -344,7 +344,7 @@ header {
        top: 114.5px;
        margin-left: 58.8%;
        margin-right: 60px;
-       z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+       z-index: 1;
    }
     
     .right-menu-header {

@@ -56,7 +56,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #45a049;
-    color: white; /* Set text color to white */
+    color: white;
 
 }
 
@@ -99,7 +99,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1;
 }
 
 .right-menu-header {
@@ -240,13 +240,13 @@ margin-top: 165px;
     top: 114.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;

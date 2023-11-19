@@ -11,7 +11,7 @@ body {
 }
 
 button {
-    color: white; /* Set text color to white */
+    color: white;
     padding: 8px 20px;
     background-color: #EA9032;
     border: 2px solid black;
@@ -22,7 +22,7 @@ button {
 
 .button1 { 
     width: 180px;
-    margin: 0 auto; /* Center aligns the button */
+    margin: 0 auto; 
     margin-top: 8vh;
 }
 
@@ -66,7 +66,7 @@ header {
 }
 
 .text-container {
-    width: 80%; /* You can adjust this width to your preference */
+    width: 80%; 
     margin-top: 12vh;
     text-align: center;
 }
@@ -95,7 +95,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -162,8 +162,8 @@ header {
 
 
     .main-content {
-    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
-    overflow: hidden; /* Enable scrolling within the main content area if necessary */
+    flex-grow: 1; 
+    overflow: hidden; 
     }
 
 
@@ -209,7 +209,7 @@ header {
     }
 
     .text-container {
-        width: 50%; /* You can adjust this width to your preference */
+        width: 50%; 
         margin-top: 12vh;
         text-align: center;
     }
@@ -241,9 +241,9 @@ header {
 .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Aligns items along the vertical center */
-    align-items: center; /* Aligns items along the horizontal center */
-    min-height: 50vh; /* Ensures the container takes up the entire viewport height */
+    justify-content: center;
+    align-items: center; 
+    min-height: 50vh; 
 }
 
 
@@ -254,21 +254,21 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .text-container {
-    width: 120%; /* You can adjust this width to your preference */
+    width: 120%; 
     margin-top: 28vh;
     text-align: center;
 }
@@ -299,14 +299,14 @@ header {
 .main-content {
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Aligns items along the vertical center */
-    align-items: center; /* Aligns items along the horizontal center */
-    min-height: 50vh; /* Ensures the container takes up the entire viewport height */
+    justify-content: center; 
+    align-items: center; 
+    min-height: 50vh; 
 }
 
 .button1 { 
     width: 110px;
-    margin: 0 auto; /* Center aligns the button */
+    margin: 0 auto; 
     margin-top: 8vh;
 }
 
@@ -321,20 +321,20 @@ button:hover {
     top: 114.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1;
 }
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .text-container {
-    width: 120%; /* You can adjust this width to your preference */
+    width: 120%;
     margin-top: 28vh;
     text-align: center;
     font-size: small;

@@ -127,7 +127,7 @@ input {
 
 button {
     position: relative;
-    color: white; /* Set text color to white */
+    color: white; 
     padding: 8px;
     background-color: #45a049;
     border: 2px solid black;
@@ -167,7 +167,7 @@ button {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -316,8 +316,8 @@ button {
     }
 
     .main-content {
-    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
-    overflow: auto; /* Enable scrolling within the main content area if necessary */
+    flex-grow: 1; 
+    overflow: auto; 
 }
 
     .middle-menu-header-desktop {
@@ -401,7 +401,7 @@ button {
        top: 114.5px;
        margin-left: 58.8%;
        margin-right: 60px;
-       z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+       z-index: 1; 
    }
     
     .right-menu-header {

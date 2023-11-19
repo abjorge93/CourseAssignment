@@ -13,7 +13,7 @@ body {
 
 button {
     display: block;
-    color: white; /* Set text color to white */
+    color: white; 
     padding: 8px 20px;
     background-color: #EA9032;
     border: 2px solid white;
@@ -26,7 +26,7 @@ button {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-    top: 500px; /* Adjust this value as needed to position the button properly */
+    top: 500px; 
  
 }
 
@@ -72,7 +72,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -169,8 +169,8 @@ header {
     }
 
     .main-content {
-    flex-grow: 1; /* This allows the main content area to grow and push the footer down */
-    overflow: auto; /* Enable scrolling within the main content area if necessary */
+    flex-grow: 1; 
+    overflow: auto; 
 }
 
     .middle-menu-header-desktop {
@@ -254,7 +254,7 @@ header {
        top: 114.5px;
        margin-left: 58.8%;
        margin-right: 60px;
-       z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+       z-index: 1; 
    }
     
     .right-menu-header {
@@ -353,7 +353,7 @@ header {
 
     button {
         display: block;
-        color: white; /* Set text color to white */
+        color: white; 
         padding: 8px 20px;
         background-color: #1F1C3B;
         border: 2px solid white;

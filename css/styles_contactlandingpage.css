@@ -52,7 +52,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -178,13 +178,13 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 
 .text-container {
-    width: 120%; /* You can adjust this width to your preference */
+    width: 120%;
     margin-top: 28vh;
     text-align: center;
 }
@@ -220,13 +220,13 @@ header {
     top: 114.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;

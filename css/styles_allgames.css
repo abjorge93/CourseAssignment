@@ -18,8 +18,8 @@ body {
 
     background-size: cover;
     width: 100%;
-    background-color: #272727; /* Blue color */
-    flex: 1; /* Take 100% height of the remaining space */
+    background-color: #272727;
+    flex: 1; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
 
     background-position: center;
     width: 100%;
-    background-color: #ccd3cb; /* Blue color */
+    background-color: #ccd3cb; 
     color: #EA9032;
     display: flex;
     flex-direction: column;
@@ -52,7 +52,7 @@ body {
 .middlelogo {
     
     width: 100%;
-    background-color: #ccd3cb; /* Blue color */
+    background-color: #ccd3cb; 
     color: #EA9032;
     display: flex;
     justify-content: center;
@@ -69,7 +69,7 @@ body {
 
 .trending2 {
     
-    background-color: #ccd3cb; /* Blue color */
+    background-color: #ccd3cb;
     color: #EA9032;
     display: flex;
     flex-direction: column;
@@ -121,7 +121,7 @@ header {
 .game-section {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 50px; /* Adjust the margin as needed */
+    margin-top: 50px; 
 
 }
 
@@ -139,7 +139,7 @@ header {
 
 .game-section a {
     text-decoration: none;
-    color: black; /* Adjust the color as needed */
+    color: black; 
 }
 
 .game-section img {
@@ -170,7 +170,7 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 .right-menu-header {
@@ -236,7 +236,7 @@ header {
  
     .first-section {
         
-        flex: 1; /* Take 100% height of the remaining space */
+        flex: 1;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -249,13 +249,12 @@ header {
     .game-section {
         display: flex;
         justify-content: space-evenly;
-        margin-top: 50px; /* Adjust the margin as needed */
-
+        margin-top: 50px; 
     }
     
     .game-section a {
         text-decoration: none;
-        color: black; /* Adjust the color as needed */
+        color: black; 
     }
     
     .game-section img {
@@ -332,8 +331,8 @@ header {
     }
 
     .game-section a {
-        width: 48%; /* Set the width to less than 50% to account for spacing */
-        margin-bottom: 50px; /* Adjust as needed for spacing between rows */
+        width: 48%; 
+        margin-bottom: 50px; 
         box-sizing: border-box;
        
     }
@@ -345,12 +344,12 @@ header {
     top: 128.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 .text-container {
-    width: 120%; /* You can adjust this width to your preference */
+    width: 120%;
     margin-top: 28vh;
     text-align: center;
 }
@@ -375,8 +374,8 @@ header {
 
 
 .game-section a {
-    width: 100%; /* Set the width to less than 50% to account for spacing */
-    margin-bottom: 50px; /* Adjust as needed for spacing between rows */
+    width: 100%; 
+    margin-bottom: 50px; 
     box-sizing: border-box;
    
 }
@@ -391,13 +390,13 @@ header {
     top: 114.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -429,8 +428,8 @@ body {
 
 
 .game-section a {
-    width: 100%; /* Set the width to less than 50% to account for spacing */
-    margin-bottom: 50px; /* Adjust as needed for spacing between rows */
+    width: 100%; 
+    margin-bottom: 50px;
     box-sizing: border-box;
    
 }
@@ -445,13 +444,13 @@ body {
     top: 114.5px;
     margin-left: 58.8%;
     margin-right: 60px;
-    z-index: 1; /* Adjust the z-index value as needed to ensure it appears above other elements */
+    z-index: 1; 
 }
 
 
 .right-content {
     width: 50%;
-    margin: 0 auto; /* Add this line to center the container */
+    margin: 0 auto; 
     display: flex;
     justify-content: center;
     align-items: center;
