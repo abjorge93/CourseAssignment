@@ -28,7 +28,7 @@ header {
     margin-left: 10px;
 }
 
-.messagesent {
+.creationcomplete {
     display: flex;
     margin: 0 auto;
     margin-top: 350px;
@@ -164,7 +164,7 @@ header {
 /* MOBILE-MINI */
 @media (max-width: 808px) {
 
-    .messagesent {
+    .creationcomplete {
 
         width: 450px;
         

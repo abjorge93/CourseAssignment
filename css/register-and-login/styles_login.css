@@ -5,10 +5,14 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-image: url('/images/Components/controll5.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
+    background-size: 500px;
+    background-position-x:center;
+    background-position-y: 500px;
+    
 }
 
 
@@ -239,6 +243,13 @@ button {
         
     }
     
+    body {
+ 
+        background-size: 250px;
+
+        
+    }
+    
     
     
     .Logo-gh {
@@ -334,17 +345,7 @@ button {
         margin-top: 10px;
     }
 
-    button {
-        display: block;
-        color: white; /* Set text color to white */
-        padding: 8px 20px;
-        background-color: #1F1C3B;
-        border: 2px solid white;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 200px;
-        margin-top: 50px;
-    }
+
   
     .footer {
         font-size: smaller;

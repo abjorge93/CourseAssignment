@@ -59,6 +59,22 @@
 
    <main> 
 
+    <body>
+        <div id="profile-form">
+            <form id="myProfileForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" value="Andreas Bjørge" disabled>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="noroff.assignment@example.com" disabled>
+    
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" value="********" disabled>
+    
+                <button type="button" onclick="enableEdit()">Edit</button>
+                <button type="button" onclick="saveChanges()" disabled>Save Changes</button>
+            </form>
+        </div>
 
     
    </main>

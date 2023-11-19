@@ -5,10 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0;
-    background-image: url('../images/Frontpage/background-image-frontpage.jpg');
-    background-size: cover;
-    background-position: center;
-    width: 100%;
+    background-image: url('/images/Components/welcomeback.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: 180px;
 }
 
 
@@ -23,6 +25,40 @@ header {
     text-align: center;
     z-index: 1;
     
+}
+
+#profile-form {
+    position: relative;
+    margin: 0 auto;
+    width: 200px;
+    top: 320px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+}
+
+button {
+    position: relative;
+    color: white; /* Set text color to white */
+    padding: 8px;
+    background-color: #45a049;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 225px;
+    margin-top: 8px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
 
 
@@ -165,6 +201,15 @@ header {
    
 }
 
+@media (max-width: 412px) {
+    body {
+
+    
+    background-size: 250px;
+}
+
+}
+
 @media (max-width: 376px) {
 
 
@@ -276,18 +321,6 @@ header {
         margin-top: 10px;
     }
 
-    button {
-        display: block;
-        color: white; /* Set text color to white */
-        padding: 8px 20px;
-        background-color: #1F1C3B;
-        border: 2px solid white;
-        border-radius: 20px;
-        cursor: pointer;
-        width: 200px;
-        margin-top: 50px;
-    }
-  
     .footer {
         font-size: smaller;
     }
