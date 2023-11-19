@@ -47,16 +47,21 @@ body {
             width: 48%; /* Adjusted to leave some space for separation */
             display: inline-block;
         }
-    
+        
         #expiryDate {
             position: relative;
             left: 104px;
+            margin: 0;
+            bottom: 11px;
+
 
         }
 
         #ccv {
             position: relative;
-            bottom: 54px;
+            margin: 0;
+            bottom: 53px;
+
 
             
         }
@@ -72,7 +77,8 @@ body {
             border-radius: 5px;
             cursor: pointer;
             width: 200px;
-            bottom: 50px;
+            bottom: 43px;
+            margin-top: 0;
             
             
         }
@@ -218,6 +224,7 @@ header {
         margin: 0 auto;
         margin-top: 180px;
     }
+
 
 }
 
