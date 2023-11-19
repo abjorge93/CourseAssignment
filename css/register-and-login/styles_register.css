@@ -270,7 +270,7 @@ button {
     #terms {
         position: static;
         position: relative;
-        right: 125px;
+        margin-left: 310px;
         top: 40px;
     
     }
