@@ -52,7 +52,7 @@ body {
             position: relative;
             left: 104px;
             margin: 0;
-            bottom: 10.4px;
+            bottom: 11px;
 
 
         }
@@ -60,7 +60,7 @@ body {
         #ccv {
             position: relative;
             margin: 0;
-            bottom: 52px;
+            bottom: 52.7px;
 
 
             
@@ -79,6 +79,7 @@ body {
             width: 200px;
             bottom: 43px;
             margin-top: 0;
+            margin-left: 1px;
             
             
         }
