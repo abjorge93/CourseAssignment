@@ -25,6 +25,80 @@ header {
     
 }
 
+.loginsection {
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+    top: 200px;
+    
+}
+
+#loginform1 {
+
+    position: static;
+    position: relative;
+    right: 300px;
+    top: 150px;
+ 
+}
+
+#loginform2 {
+
+    position: static;
+    position: relative;
+    left: -100px;
+    top: 8.6px;
+
+}
+
+#loginform3 {
+
+    position: static;
+    position: relative;
+    left: 100px;
+    bottom: 132px;
+
+}
+
+
+button:hover {
+            
+            
+    background-color: #34b93b;
+    font-size: 13.5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    position: relative;
+    color: white; /* Set text color to white */
+    padding: 8px;
+    background-color: #45a049;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    margin-top: 8px;
+    
+    
+}
+
+
 
 .Logo-gh {
     width: 100px;
