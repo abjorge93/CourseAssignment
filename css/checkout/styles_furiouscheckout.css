@@ -29,7 +29,7 @@ body {
             
             position: relative;
             width: 200px;
-            left: 200px;
+            left: 250px;
             top: 20px;
             
         }
@@ -41,32 +41,6 @@ body {
             width: 350px;
             margin-bottom: 10px;
         }
-
-        #expiryDate,
-        #ccv {
-            width: 48%; /* Adjusted to leave some space for separation */
-            display: inline-block;
-        }
-        
-        #expiryDate {
-            position: relative;
-            left: 104px;
-            margin: 0;
-            bottom: 11px;
-
-
-        }
-
-        #ccv {
-            position: relative;
-            margin: 0;
-            bottom: 52.7px;
-
-
-            
-        }
-
-        
          
         button {
             position: relative;
@@ -76,10 +50,11 @@ body {
             border: 2px solid black;
             border-radius: 5px;
             cursor: pointer;
-            width: 200px;
-            bottom: 43px;
-            margin-top: 0;
-            margin-left: 1px;
+            width: 250px;
+            right: 22px;
+            top: 15px;
+            
+            
             
             
         }
@@ -209,25 +184,26 @@ header {
         
     }
 
+
+
     .checkoutsection {
-        
-        display: flex;    
+     
         position: static;
         margin: 0 auto;
-        margin-top: 25px;
-        
-        
-    }
-
-    .blackcheckoutimg {
-        display: flex;
-        position: static;
-        margin: 0 auto;
-        margin-top: 180px;
-    }
-
+        margin-top: 190px;
 
 }
+
+
+     .blackcheckoutimg {
+
+    position: relative; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 285px;
+}
+
+     }
 
 
 
@@ -299,8 +275,19 @@ header {
         text-align: center;
         
     }
-    
 
+    .blackcheckoutimg {
+
+        width: 280px;
+        margin-top: -35px;
+
+    }
+    
+    
+    .checkoutsection {
+
+        margin-top: 210px;
+    }
     
     .Logo-gh {
         width: 100px;
