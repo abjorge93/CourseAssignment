@@ -274,6 +274,13 @@ button {
         top: 45px;
     
     }
+
+    #terms {
+
+        margin-bottom: 20px;
+    
+        }
+    
     
     .termstext {
         position: static;
@@ -357,8 +364,12 @@ button {
         padding: 20px;
         margin-top: auto;
     }
+
+    
    
 }
+
+
 
 @media (max-width: 600px) {
 
@@ -399,6 +410,8 @@ button {
       
 
         }
+        
+
     
     .Logo-gh {
         width: 100px;
